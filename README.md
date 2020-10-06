@@ -1,6 +1,16 @@
-# Option_pricing_using_SSVI_and_local_volatility_model
+# Option pricing using SSVI and local volatility model
 A group project for Object Oriented Programming with Applications course at the University of Edinburgh taken for Computational Applied Mathematics MSc.
-The C# program is focused on the local volatility model and the SSVI parametrization of the volatility surface. 
+The C# program is focused on the local volatility model and the SSVI parametrization of the volatility surface. The program explores aspects of
+option pricing using the SSVI and local volatility model. The program includes the following functions:
+
+1. Call and Put prices from SSVI: Using the SSVI parametrisation class, the program obtains correct implied volatilities using Black–Scholes formula with
+this implied volatility to price European put and call options.
+
+2. Dupire SSVI Call/Put with Monte Carlo: Prices European put and call options in the SSVI local volatility framework using the Monte Carlo algorithm.
+
+3. Pricing Asian arithmetic option: Prices Asian arithmetic call / put options using the Monte Carlo algorithm. 
+
+4. Pricing lookback option: Prices a “lookback option” using the Monte Carlo algorithm.
 
 # Contributors
 Isabell Linde<br/>
